@@ -1,0 +1,10 @@
+/* ChessBoard.css */
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
